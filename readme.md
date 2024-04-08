@@ -10,3 +10,5 @@ For this assignment, fixes were made to the QR code program to address issues hi
 - Local Host Running
 ![LocalHost](docs/Screenshot%202024-04-08%20at%201.48.33 PM.png)
 
+- GitHub Actions Passing
+[![CI/CD Pipeline](https://github.com/cdasilvasantos/homework9/actions/workflows/production.yml/badge.svg)](https://github.com/cdasilvasantos/homework9/actions/workflows/production.yml)
