@@ -58,7 +58,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: cdsasilvasantos/devops_demo:${{ github.sha }} # Uses the Git SHA for tagging
+          tags: cdasilvasantos/devops_demo:${{ github.sha }} # Uses the Git SHA for tagging
           platforms: linux/amd64,linux/arm64 # Multi-platform support
           cache-from: type=registry,ref=cdasilvasantos/devops_demo:cache
           cache-to: type=inline,mode=max
